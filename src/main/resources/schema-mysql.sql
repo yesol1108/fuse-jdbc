@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS Employee;
 
-CREATE TABLE employee (
+CREATE TABLE Employee (
   empId VARCHAR(10) NOT NULL,
   empName VARCHAR(100) NOT NULL
 );

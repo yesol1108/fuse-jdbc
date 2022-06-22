@@ -55,7 +55,7 @@ public class EmployeeServiceImpl extends RouteBuilder {
 		from("direct:insert").process(new Processor() {
 			public void process(Exchange xchg) throws Exception {
 				Employee employee = xchg.getIn().getBody(Employee.class);
-				String query = "INSERT INTO employee(empId,empName)values('" + employee.getEmpId() + "','"
+				String query = "INSERT INTO Employee(empId,empName)values('" + employee.getEmpId() + "','"
 						+ employee.getEmpName() + "')";
 				xchg.getIn().setBody(query);
 			}
