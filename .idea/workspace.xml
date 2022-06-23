@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a33c02f-70ca-42f1-a6fa-82223d8bf5f0" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <updated>1655706041570</updated>
       <workItem from="1655823296120" duration="2094000" />
       <workItem from="1655841756878" duration="4735000" />
-      <workItem from="1655970224138" duration="5894000" />
+      <workItem from="1655970224138" duration="7015000" />
     </task>
     <task id="LOCAL-00001" summary="reset password">
       <created>1655794539893</created>
