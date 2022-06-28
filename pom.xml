@@ -15,7 +15,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<fabric8.version>3.0.11.fuse-720027-redhat-00001</fabric8.version>
 		<!-- configure the Fuse version you want to use here -->
 		<fuse.bom.version>7.10.0.fuse-sb2-7_10_0-00014-redhat-00001</fuse.bom.version>
 		<docker.image.version>1.10</docker.image.version>
@@ -27,6 +27,13 @@
 				<groupId>org.jboss.redhat-fuse</groupId>
 				<artifactId>fuse-springboot-bom</artifactId>
 				<version>${fuse.bom.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>io.fabric8</groupId>
+				<artifactId>fabric8-project-bom-camel-spring-boot</artifactId>
+				<version>${fabric8.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
